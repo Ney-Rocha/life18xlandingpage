@@ -1,0 +1,393 @@
+/*CUSTOM*/
+/*input[ type="checkbox:outline"]*/
+
+@font-face {
+  font-family: 'GothamRnd-Book';
+  src: url('fonts/GothamRnd-Bold/GothamRnd-Bold.eot');
+  src: local('☺'), url('fonts/GothamRnd-Bold/GothamRnd-Bold.woff') format('woff'), url('fonts/GothamRnd-Bold/GothamRnd-Bold.ttf') format('truetype'), url('fonts/GothamRnd-Bold/GothamRnd-Bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamRnd-Book';
+  src: url('fonts/GothamRnd-Book/GothamRnd-Book.eot');
+  src: local('☺'), url('fonts/GothamRnd-Book/GothamRnd-Book.woff') format('woff'), url('fonts/GothamRnd-Book/GothamRnd-Book.ttf') format('truetype'), url('fonts/GothamRnd-Book/GothamRnd-Book.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GothamRnd-Light';
+  src: url('fonts/GothamRnd-Light/GothamRnd-Light.eot');
+  src: local('☺'), url('fonts/GothamRnd-Light/GothamRnd-Light.woff') format('woff'), url('fonts/GothamRnd-Light/GothamRnd-Light.ttf') format('truetype'), url('fonts/GothamRnd-Light/GothamRnd-Light.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body{
+  font-family:'GothamRnd-book', 'sans-serif'; 
+}
+
+.text-upper{
+  text-transform: uppercase;
+}
+
+.btn{
+  padding: .5rem 2rem;
+}
+
+.btn:focus{
+  box-shadow: none;
+}
+
+.btn-radius{
+  border-radius:1.2rem;
+}
+
+.btn-success,
+.btn-success:hover,
+.btn-success:focus{
+  background-color: #00bfa5;
+  border-color:  #00bfa5;
+  color:#fff;
+}
+
+
+.btn-outline-secondary{
+  border-color:#fff;
+  color: #fff;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus{
+  background-color:#fff;
+  border-color: #fff;
+  color: #000;
+}
+
+.btn-warning{
+  background-color:#ff4e00;
+  border-color: #ff4e00;
+  color: #fff;
+}
+
+.btn-warning:hover{
+  background-color:#F88121;
+  border-color: #F88121;
+  color: #fff;
+}
+
+.headline{
+  font-size: 2rem;
+}
+
+.description{
+  font-size: 1.2rem;
+  color: #bbb;
+}
+
+
+/*NAVBAR*/
+.safe-area {
+  font-family: 'GothamRnd-light'; 
+  width: 100%;
+  height: 90vh;  /*tamanho da view port*/
+  background: url('img/banner-pai-filho.png') no-repeat center top;
+}
+.safe-area .titulo{
+  font-family: 'GothamRnd-Book'; 
+  color: #96ff00;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.subtitulo{
+  font-family:'GothamRnd-Book'; 
+  text-transform: uppercase;
+  font-size: 1.8rem;
+
+}
+
+.bg-light{
+  background-color: transparent !important;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link{
+  color: #808285;
+  text-transform: uppercase;
+  margin-left: .8em;
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+  font-size: .8rem;
+}
+
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-nav .active>.nav-link:hover,
+.navbar-light .navbar-nav .active>.nav-link:focus,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover{
+background-color: #00a9ba;
+color:#fff;
+border-radius: 5px;
+}
+
+/*CAROSEL*/
+#depoimentos{
+  background-color: #e0e2e4;
+}
+
+.customer-depoimentos{
+  background: url('img/mae-filho.png') no-repeat center top;
+  width: 100%;
+  height: 80vh;
+  display:flex;
+  align-items: center; 
+}
+
+.carousel-title,
+.carousel-subtitle,
+.carousel-description{
+  font-family: 'GothamRnd-Book', sans-serif;   
+  color:#fff;
+  text-align: center;
+}
+
+.carousel-tiltle{
+  font-family: GothamRnd-Light,sans-serif;  
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.carousel-subtitle{
+  font-family: GothamRnd-Light,sans-serif;  
+  font-size:1rem;
+  font-style: normal;
+}
+
+.carousel-description{
+  margin-top: 1rem;
+  font-size:.8rem;
+  color: #ccc;
+
+}
+
+.carousel-inner{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-inner{
+  display:flex;
+  align-items: center;
+  height: 90vh;
+}
+
+.align-content{
+  width: 100%;
+  height: 529px
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-content{
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.carousel-indicators li{
+  width: 8px;
+  height: 8px;
+  border-radius:50%;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+
+ 
+
+/*FEATURES*/
+.container .content{
+  min-height: 60px;
+  margin-left: 10px;
+  float: left;
+}
+
+.container .content-img{
+  max-width: 100px;
+  float: left;
+}
+.custom-control{
+  margin-top:1rem;
+}
+
+.custom-checkbox  .custom-control-indicator{
+  border-radius:0;
+  background-image: none !important;
+  background-color: #00bfa5;
+  box-shadow: none;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-indicator{
+  
+  
+}
+
+.custom-checkbox .custom-control-input:focus~.custom-control-indicator{
+  box-shadow: none;
+}
+
+.custom-control-headline{
+  font-size: 1rem;
+  font-weight: 400;
+  }
+
+.custom-control-description{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.features-description{
+  font-size:  .9rem;
+  color: #bbb;
+}
+/*VIDEO*/
+.video{
+  background-color: #e5eaed;
+
+}
+
+/*RATES*/
+.rates{
+  background-color: #fff
+}
+
+.rates .country-description{
+  color:#bbb;
+}
+
+.circ-rounded{
+  width: 120px;
+  height: 120px;
+  border: solid 3px #96ff01;
+  border-radius: 60px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #fff !important;
+  position: relative;
+  z-index: 999;
+}
+
+.circ-pontilhado-esq{
+  position: absolute;
+  top: 0;
+  right: 3px;
+  width: 50%;
+  height:83px;
+  border-bottom:2px dashed #96ff01;
+  z-index: 99;
+}
+.circ-pontilhado-dir{
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 50%;
+  height:83px;
+  border-bottom:2px dashed #96ff01;
+  z-index: 999:;
+}
+@media (max-width: 767px){
+  .circ-pontilhado-esq{
+  display: none;
+  }
+  .circ-pontilhado-dir{
+  display: none;
+  }
+}
+/*CUSTOMER*/
+
+.customer-depoimentos .customer-img;
+.customer-depoimentos .customer-title,
+.customer-depoimentos .customer-name,
+.customer-depoimentos .customer-description{
+  text-align: left;
+  display: block;
+}
+
+.customer-depoimentos .customer-name{
+  margin-top: -10px;
+}
+
+.customer-depoimentos .customer-body{
+  display: inline-block;
+  clear: both;
+}
+
+
+
+.customer-depoimentos .customer-title{
+  font-size: 1.3rem;
+  color: #F88121;
+  text-transform: uppercase;
+
+}
+.customer-depoimentos .customer-name{
+  font-size: .8rem;
+  font-weight: normal;
+  color: #1c1c1c;
+  text-transform: uppercase;
+}
+
+.customer .customer-description{
+  font-size:0.7rem;
+  color:#bbb;
+}
+
+.customer-depoimentos .carousel-indicators .active{
+  background-color:#bbb;
+}
+
+.customer-content{
+  font-size: 1.8rem;
+  color: #00a9ba;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.customer-reviews .carousel-indicators li{
+  width: 8px;
+  height: 8px;
+  border-radius:50%;
+  border: 1px solid #bbb;
+  background-color: transparent;
+}
+
+.customer-system{
+  background: url('img/sthetoscopio.png') no-repeat center top;
+  width: 100%;
+  overflow: hidden; 
+}
+
+.customer-system .customer-title{
+  color: #fff;
+  text-transform: uppercase;
+}
+.customer-partiner{
+  height: auto;
+  overflow:hidden;
+  background-color: #a7a7a7;
+}
+  
+
+.customer-footer{
+  background-color: #ff4e00;
+}
